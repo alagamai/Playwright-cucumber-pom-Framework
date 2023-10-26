@@ -13,16 +13,16 @@ NodeJS: https://nodejs.org/en/download
 2.  sudo npm install @cucumber/cucumber
 3.  sudo npm install cucumber-html-reporter  
 4.  create a file named reporter.js in root dir 
-// reporter.js
-const reporter = require('cucumber-html-reporter');
-const options = {
-    theme: 'bootstrap',
-    jsonFile: 'report/cucumber_report.json',
-    output: 'report/cucumber_report.html',
-    reportSuiteAsScenarios: true,
-    scenarioTimestamp: true,
-    launchReport: true
-};
+        // reporter.js
+        const reporter = require('cucumber-html-reporter');
+        const options = {
+            theme: 'bootstrap',
+            jsonFile: 'report/cucumber_report.json',
+            output: 'report/cucumber_report.html',
+            reportSuiteAsScenarios: true,
+            scenarioTimestamp: true,
+            launchReport: true
+        };
 
 reporter.generate(options);
  
@@ -45,7 +45,8 @@ reporter.generate(options);
     npm run cy:run-regression-tag - to run scenarios of tag: regression  
     
  # Application under test 
- https://shop.demoqa.com/
+ https://automationteststore.com/
+ https://demo.nopcommerce.com
  
  # Screenshots
-[![Cucumber report](https://github.com/alagamai/cypress-bdd-cucumber-pom-framework/blob/main/cypress/link-to-readme/Cloud-Dashboard-Report.png)]
+[![Cucumber report](https://github.com/alagamai/Playwright-E2E-Testing-Framework/blob/master/images/Untitled.png)]
